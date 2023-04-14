@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <form
             action=""
-            className=" input-box border p-4 shadow-lg rounded-md flex items-center max-w-[700px] justify-between"
+            className=" input-box border outline-none border-gray-200 bg-white p-4 shadow-lg rounded-md flex items-center max-w-[700px] justify-between"
           >
             <input
               type="text"

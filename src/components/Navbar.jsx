@@ -24,7 +24,7 @@ const Navbar = () => {
           <button className="  px-8 py-3 bg-slate-50 flex justify-between items-center bg-transparent ">
             Login <img src={lock} alt="" />
           </button>
-          <button className="bg-[#20B486] px-8 py-3 rounded-md text-white font-bold border border-transparent ">
+          <button className="bg-[#20B486] outline-none px-8 py-3 rounded-md text-white font-bold border border-transparent ">
             Sign up
           </button>
         </div>
@@ -48,10 +48,10 @@ const Navbar = () => {
           </li>
           <li className="p-2 cursor-pointer my-2 hover:bg-gray-100">Price</li>
           <div className="flex flex-col my-4 gap-4 ">
-            <button className=" w-full px-2 py-3 bg-gray-300 flex justify-center items-center bg-transparent rounded-md ">
+            <button className=" w-full px-2 py-3 outline-none bg-gray-300 flex justify-center items-center bg-transparent rounded-md ">
               Login <img src={lock} alt="" />
             </button>
-            <button className="w-full bg-[#20B486] px-8 py-3 rounded-md text-white font-bold hover:bg-[#2aca97]">
+            <button className="w-full bg-[#20B486] outline-none px-8 py-3 rounded-md text-white font-bold hover:bg-[#2aca97]">
               Sign Up For Free
             </button>
           </div>
